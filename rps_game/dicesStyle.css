@@ -1,0 +1,62 @@
+.container{
+    background-color: grey;
+    height :100%;
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+    font-style: bold;
+    padding: 10px;
+    color:whitesmoke;
+    text-align: center;
+}
+.subcontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ 
+.p{ 
+    display:flex;
+    flex-direction: column;
+    margin:5px;
+    text-align: left;
+    text-align: center;
+    color: aqua;
+    font-style: italic;
+    font-size:30px; 
+    align-items: center;
+
+}
+#ps1{
+    position:absolute;
+    left:30%;
+}
+#ps2{
+    position:absolute;
+    left:65%;
+}
+.ss{
+    display:flex;
+    flex-direction: colums;
+    justify-content: center;
+    text-align: center;
+}
+.player1, .player2{
+    display:flex;
+    flex-direction: column;
+    padding: 80px;
+    margin:50px;
+    width:150px;
+    height:100px;
+    border: 30px outset rgb(218, 35, 83);
+    border-radius: 3px;
+    background-color:rgb(237, 98, 131);
+    text-align: center;
+    color: rgb(6, 5, 5);
+    font-size: 50px ;
+    font-weight: bolder;
+}
+
+    
