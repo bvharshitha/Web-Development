@@ -1,0 +1,18 @@
+<%- include('header'); -%>
+<h2> About Us</h2>
+<p>  <%= abouts %> </p>
+<h3>Share the way to contact you</h3>
+<form action="/about" method="post">
+    <input type="text" name="yourname" placeholder="Your Name" autocomplete="off">
+    <input type="text" name="gmail" placEholder="Gmail" autocomplete="off">
+    <button type="submit" id="subm">share</button>
+</form>
+<% information.forEach(function(post) { %>
+    <ul>
+        <li>
+            <p>Name is <%= post.name%> and Gmail Id is <%= post.gmail%></p>
+        </li>
+    </ul>
+    
+    <%})%>
+<%- include('footer'); -%>

@@ -1,0 +1,154 @@
+html{
+    background-color: whitesmoke;
+    margin:0;
+    padding: 0;
+}
+.head{
+  box-sizing: border-box;
+  position:fixed;
+  height:100px;
+  left:0;
+  right: 0;
+  top:0;
+  background-color: rgb(197, 177, 210);
+  align-items: center;
+  overflow: hidden;
+}
+h1{
+    position: fixed;
+    left: 5%;
+    color: rgb(22, 4, 74);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.align{
+    position:fixed;
+    left:67%;
+    padding-top:60px;
+}
+nav a{
+    color: rgb(22, 4, 74);
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 10px;
+    margin:10px;
+}
+a:hover{
+    color:rgb(244, 12, 113);
+}
+
+b{
+    font-size:large;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+p{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bod{
+    position:fixed;
+    top:100px;
+    left:20px;
+    color: black;
+    bottom:100px;
+}
+
+
+.foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(150, 227, 206);
+    color:black;
+    text-align: center;
+  }
+  h6{
+    font-size: 12px;
+  }
+  
+
+  .input{
+  overflow-y: hidden;
+	display: flex;
+  flex-direction: column;
+	justify-content:flex-start;
+  align-items:flex-start;
+  width: auto;
+  height: auto;
+  position: fixed;
+  }
+  label{  
+    color: #130223;  
+    font-size: 17px;  
+    font-weight: bolder;
+    position:fixed;
+    left:3%;
+    top:auto;
+}  
+
+  input{
+   border: 3px solid rgb(120, 120, 120);
+   border-radius: 3px;
+   width:350px;
+   height: 40px;
+   background-color:rgb(238, 237, 237);
+   margin: 10px;
+  }
+  #add{
+   border: 3px solid rgb(120, 120, 120);
+   border-radius: 3px;
+   width:700px;
+   height: 120px;
+   text-align: start;
+   background-color:rgb(238, 237, 237);
+   margin: 10px;
+  }
+  #sub{
+    position:fixed;
+    top:68%;
+    left:3%;
+    width:100px;
+    height: 40px;
+   border: 3px solid rgb(36, 35, 35);
+   border-radius: 3px;
+   background-color: rgb(68, 66, 66);
+   color: aliceblue;
+   font-weight: bolder;
+   font-family: 'Times New Roman', Times, serif;
+  }
+  #subm{
+    width:100px;
+    height: 40px;
+    border: 3px solid rgb(36, 35, 35);
+   border-radius: 3px;
+   background-color: rgb(68, 66, 66);
+   color: aliceblue;
+  }
+
+
+
+  .button {
+    position:absolute;
+    bottom:0;
+    left:90%;
+    right:20px;
+    background-color: rgb(151, 146, 146);
+    border: none;
+    color:black;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: size 5px;
+    margin: 4px 2px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  border: 1px solid rgb(133, 135, 135);
+  }
+  .button:hover{
+    color:rgb(255, 253, 253);
+  }

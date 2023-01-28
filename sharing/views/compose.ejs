@@ -1,0 +1,18 @@
+<%- include('header'); -%>
+<h2 style="color:rgb(91, 5, 97);"> Add your thoughts </h2>
+<form action="/compose" method="post">
+<div class="input">
+<div id="tex1">
+<label>Title:</label>
+<br>
+<input type="text" name="list" autocomplete="off">
+<br>
+<label>Content:</label><br>
+<textarea id="add" rows="6" cols="33"></textarea>
+<button type="submit" value="true" id="sub"> ADD</button>
+</div>
+</div>
+</form>
+
+
+<%- include('footer'); -%>

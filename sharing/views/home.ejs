@@ -1,0 +1,16 @@
+<%- include('header'); -%>
+
+<h2> home </h2>
+
+<p> <%=homecontent%> </p>
+
+<% homelists.forEach(function(post) { %>
+  <ul>
+   <li> <b> <%= post.title %> </b>
+        <p> <%= post.content.substring(0,50) + "..."  %> 
+          <a href="/posts/<%=post.title%>">read more</a>
+        </p></li>
+  </ul>
+  <% }) %>
+<a href="/compose"><button type="submit" class="button"> + </button></a>
+<%- include('footer'); -%>
