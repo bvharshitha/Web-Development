@@ -1,0 +1,61 @@
+.mainbody{
+    background-color:gray;
+}
+h1{
+    font-style:initial;
+    font-size:80px;
+    text-align:center;
+
+}
+.container{
+    display:flex;
+    flex-direction: row;
+}
+.w{
+ background-image: url('images/tom1.png');
+ overflow: hidden;
+}
+.a{
+    background-image: url('images/tom2.png');
+    overflow:hidden;
+}
+.s{
+    background-image: url('images/tom3.png');
+    overflow:hidden;
+}
+.d{
+    background-image: url('images/tom4.png');
+    overflow:hidden;
+}
+
+.j{
+    background-image: url('images/crash.png');
+    overflow:hidden;
+}
+
+.drum{
+    display:flex;
+    flex-direction:row;
+    margin:30px;
+    border:10px solid rgb(37, 36, 36); 
+    padding:30px;
+    width:20%;
+    height:150px;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color:rgb(43, 255, 0);
+}
+ #foot{
+   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color:white;
+ }
